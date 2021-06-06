@@ -1,0 +1,22 @@
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image{
+    width: 24%;
+    padding: 3px;
+    filter: blur(2.7px) grayscale(80%) brightness(65%);
+    opacity: 0.5;
+    transition: linear 0.5s;
+}
+.container_img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    flex: 25%;
+    margin: 0 auto;
+}
+.image:hover{
+    filter: blur(0px) grayscale(0%) brightness(120%);
+    opacity: 01;
+}
